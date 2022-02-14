@@ -21,6 +21,11 @@ namespace FormulaCuadratica
             Console.WriteLine("Ingresa C");
             int C = int.Parse(Console.ReadLine());
 
+            double resultado_Parcial = Math.Sqrt(Math.Pow(B, 2) - (4*A*C));
+
+            double X = (-B + resultado_Parcial) / (2*A);
+
+            Console.WriteLine("El resultado es: " + X);
 
             Console.ReadKey();
         }
