@@ -25,7 +25,7 @@ namespace FormulaCuadratica
 
             double X = (-B + resultado_Parcial) / (2*A);
 
-            Console.WriteLine("El resultado es: " + X);
+           Console.WriteLine("El resultado es: " + X);
 
             Console.ReadKey();
         }
